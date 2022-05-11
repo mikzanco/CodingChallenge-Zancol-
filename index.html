@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Lim Boolean</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <!-- img inserita da CSS. -->
+    <div id="bigdiv"> <!-- creo un div contenitore di tutto per ricreare il background-->
+
+     <header> <!-- primo div con logo e testo sotto, centrato -->
+         <img src="logo.png" id="logo">
+         <h1>Taking Booleaners from A to B</h1>
+     </header>
+
+      <div class="nav"> <!-- breve div con i tre pulsanti -->
+        <br>
+       <nav>
+         <button type="button" name="button"><a href="https://help.li.me/hc/it">Prenota</a></button>
+         <button type="button" name="button">Termina prenotazione</button>
+         <button type="button" name="button">Accendi luci</button>
+       </nav>
+      </div>
+
+     <main> <!-- tre diverse sezioni praticamente uguali. -->
+
+       <!-- Ho creato dei radio-button anziche delle checkbox per indirizzare la scelta verso un monopattino solo -->
+
+       <div class="Monopattini">
+         <input type="radio" name="monopattino">
+         <span>Monopattino Gino22</span>
+         <br>
+         &rarr; <span>Via guadalametro - a 220 metri da te</span>
+         <br>
+         <h3>Stato carica:</h3>
+         <div class="Medium"></div>
+       </div>
+
+       <div class="Monopattini">
+         <input type="radio" name="monopattino">
+         <span>Monopattino Mike24</span>
+         <br>
+         &rarr; <span>Via Ricciardoni - a 420 metri da te</span>
+         <br>
+         <h3>Stato carica:</h3>
+         <div class="High"></div>
+       </div>
+
+       <div class="Monopattini">
+         <input type="radio" name="monopattino">
+         <span>Monopattino Fede154</span>
+         <br>
+         &rarr; <span>Via Mentarini - a 490 metri da te</span>
+         <br>
+         <h3>Stato carica:</h3>
+         <div class="Low"></div>
+       </div>
+     </main>
+
+    </div> <!-- chiusura div grande -->
+
+  </body>
+</html>
